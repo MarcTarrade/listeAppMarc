@@ -1,5 +1,7 @@
 package com.example.listeapp
 
+import android.annotation.SuppressLint
+import android.content.res.TypedArray
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.LinearLayout
@@ -9,7 +11,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
-    var items = Array<AndVersion>(14, {AndVersion()})
+    var items = Array<AndVersion>(14, { AndVersion() })
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -22,13 +24,12 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-
-    fun seedItems(){
+    fun seedItems() {
         val nameArray = resources.getStringArray(R.array.version)
-        val images = arrayOf(R.drawable.cupcake, R.drawable.donut, R.drawable.eclair, R.drawable.froyo, R.drawable.honeycomb, R.drawable.gingerbread, R.drawable.icecream, R.drawable.jellybean, R.drawable.kitkat, R.drawable.lollipop, R.drawable.marshmallow, R.drawable.nougat, R.drawable.oreo, R.drawable.pie)
+        val images: TypedArray = resources.obtainTypedArray(R.array.image)
         val description = resources.getStringArray(R.array.description)
         for (k in 0..13) {
-            items[k] = AndVersion(nameArray[k], images[k], description[k])
+            items[k] = AndVersion(nameArray[k], images.getResourceId(k, -1), description[k])
         }
     }
 }
