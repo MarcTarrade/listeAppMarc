@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">listeApp</string>
+    <string-array name="version">
+        <item>Cupcake</item>
+        <item>Donut</item>
+        <item>Eclair</item>
+        <item>Froyo</item>
+        <item>Honey Comb</item>
+        <item>Ginger Bread</item>
+        <item>IceCream Sandwich</item>
+        <item>Jelly Bean</item>
+        <item>Kitkat</item>
+        <item>Lollipop</item>
+        <item>Marshmallow</item>
+        <item>Nougat</item>
+        <item>Oreo</item>
+        <item>Pie</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>Version 1.5</item>
+        <item>Version 1.6</item>
+        <item>Version 2.0</item>
+        <item>Version 2.2</item>
+        <item>Version 2.3</item>
+        <item>Version 3.0</item>
+        <item>Version 4.0</item>
+        <item>Version 4.1</item>
+        <item>Version 4.4</item>
+        <item>Version 5.0</item>
+        <item>Version 6.0</item>
+        <item>Version 7.0</item>
+        <item>Version 8.0</item>
+        <item>Version 9.0</item>
+    </string-array>
+
+
+</resources>
