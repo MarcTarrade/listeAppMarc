@@ -17,6 +17,23 @@
         <item>Pie</item>
     </string-array>
 
+    <string-array name="image">
+        <item>@drawable/cupcake</item>
+        <item>@drawable/donut</item>
+        <item>@drawable/eclair</item>
+        <item>@drawable/froyo</item>
+        <item>@drawable/honeycomb</item>
+        <item>@drawable/gingerbread</item>
+        <item>@drawable/icecream</item>
+        <item>@drawable/jellybean</item>
+        <item>@drawable/kitkat</item>
+        <item>@drawable/lollipop</item>
+        <item>@drawable/marshmallow</item>
+        <item>@drawable/nougat</item>
+        <item>@drawable/oreo</item>
+        <item>@drawable/pie</item>
+    </string-array>
+
     <string-array name="description">
         <item>Version 1.5</item>
         <item>Version 1.6</item>
@@ -33,6 +50,5 @@
         <item>Version 8.0</item>
         <item>Version 9.0</item>
     </string-array>
-
 
 </resources>
